@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:id="@+id/layout"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MemberProfileActivity">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingTop="@dimen/layout_padding_top">
+
+        <ImageView
+            android:id="@+id/image_view"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:scaleType="fitXY"
+            android:layout_gravity="center"
+            android:layout_marginBottom="15dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:background="@android:color/darker_gray"
+            android:textColor="@android:color/white"
+            android:text="Name"/>
+
+        <TextView
+            android:id="@+id/name_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/member_profile_field_height"
+            tools:text="My name"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:background="@android:color/darker_gray"
+            android:textColor="@android:color/white"
+            android:text="Phone Number"/>
+
+        <TextView
+            android:id="@+id/phone_no_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/member_profile_field_height"
+            tools:text="Phone Number"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:background="@android:color/darker_gray"
+            android:textColor="@android:color/white"
+            android:text="Email"/>
+
+        <TextView
+            android:id="@+id/email_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/member_profile_field_height"
+            tools:text="myemail@email.com"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:background="@android:color/darker_gray"
+            android:textColor="@android:color/white"
+            android:text="Birthday"/>
+
+        <TextView
+            android:id="@+id/birthday_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/member_profile_field_height"
+            tools:text="20th April"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:background="@android:color/darker_gray"
+            android:textColor="@android:color/white"
+            android:text="Area of Ministry"/>
+
+        <TextView
+            android:id="@+id/area_of_ministry_tv"
+            android:layout_width="100dp"
+            android:layout_height="50dp" />
+
+    </LinearLayout>
+
+</ScrollView>
